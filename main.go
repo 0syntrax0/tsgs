@@ -65,8 +65,4 @@ func main() {
 	for value := range ch {
 		fmt.Println(value)
 	}
-
-	// quick testing
-	fmt.Println(Same(tree.New(1), tree.New(1))) // should print true
-	fmt.Println(Same(tree.New(1), tree.New(2))) // should print false
 }
